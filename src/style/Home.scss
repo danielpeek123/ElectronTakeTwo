@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+
+    .side-bar-container {
+        width: 65px;
+        height: 100vh;
+        background-color: rgba(53, 56, 62, 1);
+    }
+
+    .tree-view-container {
+        padding: 2px;
+        width: 250px;
+        height: 100vh;
+        background-color: rgba(33, 37, 43, 1);
+
+        input {
+            width: 97%;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 2px;
+        }
+
+        .tree-view {            
+            height: 100vh;
+            overflow: auto;
+        }
+    }
+
+    .render-window-container {
+        width: 500px;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(28, 31, 36, 1);
+    }
+}

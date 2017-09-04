@@ -1,0 +1,17 @@
+.main {
+  background-color: blue;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  padding: 30px;
+}
+
+.aboutBox {
+  margin: 20px 0;
+}
+
+.about {
+  color: blue;
+}
